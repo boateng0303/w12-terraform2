@@ -52,6 +52,9 @@ resource "null_resource" "n1" {
   provisioner "remote-exec" {
     inline = [  
         "touch serge",
+        "mkdir kwame"
+
+      
         
      ]
   }
